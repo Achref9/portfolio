@@ -154,7 +154,7 @@ const Contact = () => {
           {/* Social Links */}
           <div ref={iconsRef} className="flex justify-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Achref9"
               target="_blank"
               rel="noopener noreferrer"
               className="glass w-14 h-14 rounded-full flex items-center justify-center hover:glow hover:scale-110 transition-all duration-300 group"
@@ -162,7 +162,7 @@ const Contact = () => {
               <GithubLogo size={24} weight="light" className="text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/achref-abidi-/"
               target="_blank"
               rel="noopener noreferrer"
               className="glass w-14 h-14 rounded-full flex items-center justify-center hover:glow hover:scale-110 transition-all duration-300 group"
