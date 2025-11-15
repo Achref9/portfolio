@@ -4,11 +4,11 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Button } from './ui/button';
 import { ArrowUpRight } from '@phosphor-icons/react';
 import project1 from '@/assets/project-1.jpg';
-import project2 from '@/assets/project-2.jpg';
-import project3 from '@/assets/project-3.jpg';
-import project4 from '@/assets/project-4.jpg';
+import project2 from '@/assets/project-2.png';
+import project3 from '@/assets/project-3.png';
+import project4 from '@/assets/project-4.png';
 import project5 from '@/assets/project-5.jpg';
-import project6 from '@/assets/project-6.jpg';
+import project6 from '@/assets/project-6.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -156,10 +156,7 @@ const Projects = () => {
                     className="w-full group/btn border-primary/30 hover:bg-primary/10 hover:border-primary"
                     asChild
                   >
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      View Project
-                      <ArrowUpRight className="ml-2 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" size={16} />
-                    </a>
+                   
                   </Button>
                 </div>
               </div>

@@ -89,7 +89,7 @@ const Hero = () => {
             size="lg"
             className="group relative bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-2xl glow hover:glow-lg transition-all duration-300 hover:scale-105"
           >
-            Hire Me
+            Recruite Me
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </Button>
         </div>
